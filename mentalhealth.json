@@ -1,0 +1,131 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Good day",
+                "Greetings"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! What can I help you with?",
+                "Hey! How can I support you today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "I am leaving",
+                "Have a nice day"
+            ],
+            "responses": [
+                "Goodbye! Take care!",
+                "See you later! Wishing you a wonderful day!",
+                "Bye! Feel free to return if you need help."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "I appreciate it",
+                "Thanks a lot"
+            ],
+            "responses": [
+                "You're welcome! Is there anything else I can help with?",
+                "No problem! Let me know if you need further support.",
+                "You're welcome! Take care."
+            ]
+        },
+        {
+            "tag": "anxiety",
+            "patterns": [
+                "I feel anxious",
+                "I have anxiety",
+                "I'm worried",
+                "I feel stressed",
+                "I can't stop overthinking"
+            ],
+            "responses": [
+                "I'm sorry to hear that you're feeling anxious. Have you tried deep breathing or mindfulness exercises?",
+                "Anxiety can be tough. Remember, it's okay to take small steps toward calming yourself. I’m here to help!",
+                "Try focusing on your breath for a moment. It might help you feel more at ease."
+            ]
+        },
+        {
+            "tag": "depression",
+            "patterns": [
+                "I feel sad",
+                "I'm depressed",
+                "I feel hopeless",
+                "I don't feel good",
+                "I'm struggling with depression"
+            ],
+            "responses": [
+                "I'm here to listen. Talking about your feelings can be a great first step toward healing.",
+                "You are not alone. It's okay to seek help or talk to someone you trust.",
+                "It’s okay to feel this way sometimes. Please consider reaching out to a professional for additional support."
+            ]
+        },
+        {
+            "tag": "motivation",
+            "patterns": [
+                "I need motivation",
+                "I feel unmotivated",
+                "I can't seem to focus",
+                "I lack energy",
+                "I need encouragement"
+            ],
+            "responses": [
+                "You're capable of amazing things! Just take one step at a time.",
+                "It’s okay to take a break and recharge. You’ll feel ready to tackle challenges again soon.",
+                "Remember why you started. You’ve got this!"
+            ]
+        },
+        {
+            "tag": "self_care",
+            "patterns": [
+                "How do I practice self-care?",
+                "What are some self-care tips?",
+                "I want to take care of myself",
+                "How can I relax?"
+            ],
+            "responses": [
+                "Self-care is essential! Try activities like journaling, going for a walk, or meditating.",
+                "Make time for yourself. Do something that makes you happy, even if it’s just for a few minutes.",
+                "Remember to stay hydrated, eat well, and get enough rest. Your well-being matters."
+            ]
+        },
+        {
+            "tag": "stress",
+            "patterns": [
+                "I'm feeling stressed",
+                "How can I deal with stress?",
+                "I have too much on my plate",
+                "I'm overwhelmed"
+            ],
+            "responses": [
+                "Stress can be tough. Try breaking tasks into smaller steps and tackling them one at a time.",
+                "Remember to take breaks and do something you enjoy. It can help reduce stress.",
+                "You’ve got this! Deep breathing or talking to a friend can be great ways to manage stress."
+            ]
+        },
+        {
+            "tag": "fallback",
+            "patterns": [],
+            "responses": [
+                "I'm sorry, I didn't understand that. Could you rephrase?",
+                "I’m here to help, but I need a bit more information.",
+                "Can you clarify what you mean? I'll do my best to assist you."
+            ]
+        }
+    ]
+}
